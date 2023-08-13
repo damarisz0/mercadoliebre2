@@ -1,16 +1,25 @@
 {
   "name": "clase19",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "dev":"npx nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damarisz0/mercadoliebre2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damarisz0/mercadoliebre2/issues"
+  },
+  "homepage": "https://github.com/damarisz0/mercadoliebre2#readme",
+  "description": ""
 }
